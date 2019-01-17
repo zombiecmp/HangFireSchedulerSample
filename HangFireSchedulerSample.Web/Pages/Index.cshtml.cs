@@ -37,15 +37,5 @@ namespace WebApplication2.Pages
         {
             Console.WriteLine("Job Recurring every two minutes");
         }
-
-        public void SendEmail()
-        {
-            Console.WriteLine("Job Scheduled 2 min.");
-        }
-
-        public void ExecuteTask()
-        {
-            Console.WriteLine("Job enqueue");
-        }
     }
 }

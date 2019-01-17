@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFireSchedulerSample.Web", "WebApplication2\HangFireSchedulerSample.Web.csproj", "{90A2C60C-3199-443B-A502-7240C68F38C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFireSchedulerSample.Web", "HangFireSchedulerSample.Web\HangFireSchedulerSample.Web.csproj", "{90A2C60C-3199-443B-A502-7240C68F38C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{11958A41-220E-4935-8AE0-A26F9E42C8A0}"
 EndProject
