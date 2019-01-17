@@ -3,7 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{90A2C60C-3199-443B-A502-7240C68F38C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFireSchedulerSample.Web", "WebApplication2\HangFireSchedulerSample.Web.csproj", "{90A2C60C-3199-443B-A502-7240C68F38C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{11958A41-220E-4935-8AE0-A26F9E42C8A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F4160DF6-3996-4A98-A279-195DDC9ACDB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{12EF2F51-C7B3-4C59-B691-A99FBC2E11E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B9336951-CF8B-4DEF-B5AA-6C6F4C106A48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3944D9B2-FC5F-4839-A44E-E97AF43F4FEC}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +31,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90A2C60C-3199-443B-A502-7240C68F38C2} = {F4160DF6-3996-4A98-A279-195DDC9ACDB7}
+		{11958A41-220E-4935-8AE0-A26F9E42C8A0} = {12EF2F51-C7B3-4C59-B691-A99FBC2E11E0}
+		{F4160DF6-3996-4A98-A279-195DDC9ACDB7} = {11958A41-220E-4935-8AE0-A26F9E42C8A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46516974-CFC7-4C01-B74B-B64302F67DB9}
